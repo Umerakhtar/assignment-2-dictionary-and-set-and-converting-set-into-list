@@ -1,0 +1,31 @@
+d1 = {"k1": '001', "k2": "002", "k3": "003", "k4": "004","k5": "005","k6": "006"  ,  "k7": "007", "k8": "008"}
+d2 = {"nk1": "UMER", "nk2": "MALIK G", "nk3": "MUZAIR", "nk4": "EJAZ","nk5": "UXMAN","nk6": "AWAN"  ,  "nk7":"ABBAS", "nk8": "AAR"}
+d3 = {'mk1': '34', 'mk2': '28', 'mk3': '22', 'mk4': '26','mk5': '34','mk6': '26'  ,  'mk7': '44', 'mk8': '32'}
+print(d1)
+print(d2)
+print(d3)
+d1.update({"k9" : "009"})
+print(d1)
+d1.pop("k9")
+print(d1)
+print(d1["k1"] , d2["nk1"] , d3["mk1"])
+print(d1["k4"] , d2["nk4"] , d3["mk4"])
+#sets
+s1 = ["001", "002", "003", "004","005","006"  ,  "007", "008"]
+s2 = ["UMER", "MALIK G", "MUZAIR", "EJAZ","UXMAN","AWAN"  ,  "ABBAS", "AAR"]
+s3 = [34, 28, 22, 26,34,26,44,32]
+print(s1)
+print(s2)
+print(s3)
+s1.append("009")
+print(s1)
+s1.remove("009")
+print(s1)
+print(s1[0] , s2[0] , s3[0])
+print(s1[3] , s2[3] , s3[3])
+l1 = list(s1)
+l2 = list(s2)
+l3 = list(s3)
+print (l1)
+print (l2)  
+print (l3)
